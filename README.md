@@ -1,6 +1,17 @@
-# Read Me #
+# Ref
 
-## How it works ##
+[Makefile](https://github.com/roxma/easymake)  
+
+
+## Makefile
+
+    $ cd <this-project>
+    $ mkdir sub-dir
+    $ ln -s ../easymake.mk Makefile
+    $ make
+
+## properties
+
 objects are stored as structs with pointers to:
 	1. a struct that holds its properties
 	2. a struct that holds its methods
@@ -22,3 +33,4 @@ Polymorphism is implemented as well. I replace pointers to functions in the supe
 
 ## Motivation ##
 I wanted to learn how object-oriented programming was implemented in C. I enjoy deriving complex things on my own to really understand the inner-workings.
+
